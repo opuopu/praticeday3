@@ -1,0 +1,10 @@
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+td{
+    border: 1px solid red;
+}
+table{
+    border-collapse: collapse;
+}
