@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 30%;
+        }
+        body:hover img{
+            transform: rotate(-60deg);
+            transform-origin: top right;
+           transition: transform 1s;
+        }
+        .ball{
+            height: 40px;
+            width: 40px;
+            background-color: red;
+            border-radius: 50%;
+            position: relative;
+             left: 170px;
+             top: -40px;
+             transition: transform 2s ease-out;
+        }
+   body:hover .ball{
+transform: translate(1000px);
+   
+   }
+    
+    </style>
+</head>
+<body>
+    <img src="./bat-removebg-preview.png" alt="">
+    <div class="ball"></div>
+</body>
+</html>
